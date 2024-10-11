@@ -18,7 +18,7 @@ import com.bhim.entities.Order;
 import com.bhim.service.DashboardService;
 import com.bhim.service.ReportService;
 
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("http://localhost:3000/")
 @RestController
 @RequestMapping(value = "/api/admin")
 public class AdminRestController {
